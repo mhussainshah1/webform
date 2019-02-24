@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+<form action="/processForm" method="get "> <!--"post"-->
+    First name:<br>
+    <input name="firstname" type="text">
+    <br>
+    Last name:<br>
+    <input name="lastname" type="text">
+
+    <p>Note that the form itself is not visible.</p>
+
+    <p>Also note that the default width of a text input field is 20 characters.</p>
+
+    <P><textarea id=”posttext” maxlength=”141” name=”posttext” rows=”2”></textarea>
+        - an input that contains multiple rows example:</P>
+
+    <p><input id="email" name=”email” text="email" type="text" value=""/>
+        - an input tag that displays as a textbox and collects the email address of the user</p>
+    <p><input id="submit" type="submit" value="Submit"/>
+        - an input tag that displays as button and calls the form’s action when clicked</p>
+    <p><input type="reset" value="Clear"/>
+        - an input tag that displays as a button with a label that says Clear and causes all the form’s input boxes to
+        clear</p>
+
+</form>
+</body>
+</html>
